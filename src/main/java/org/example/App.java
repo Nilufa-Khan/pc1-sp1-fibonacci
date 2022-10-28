@@ -1,13 +1,16 @@
 package org.example;
 
-/**
- * Hello world!
- *
- */
+import java.util.Scanner;
+
+
 public class App 
 {
-    public static void main( String[] args )
+    public static void main(String args[])
     {
-        System.out.println( "Hello World!" );
+        Scanner sc = new Scanner(System.in);
+        Fibonacci fib = new Fibonacci();
+        System.out.println("Enter how many number you want to print");
+        int count = sc.nextInt();
+        fib.fibonacci(count);
     }
 }
