@@ -15,5 +15,8 @@ public class TestFib {
     public void tearDown(){
         obj = null;
     }
-
+    @Test
+    public void test1(){
+        Assertions.assertEquals(0,obj.fibonacci(1));
+    }
 }
