@@ -17,6 +17,6 @@ public class TestFib {
     }
     @Test
     public void test1(){
-        Assertions.assertEquals(0,obj.fibonacci(1));
+        Assertions.assertEquals(1,obj.fibonacci(3));
     }
 }
